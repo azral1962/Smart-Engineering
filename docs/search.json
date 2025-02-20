@@ -20,13 +20,63 @@
     ]
   },
   {
+    "objectID": "machine.html",
+    "href": "machine.html",
+    "title": "2  📌 Perbedaan git clone vs git fork di GitHub ohyeah?",
+    "section": "",
+    "text": "2.1 ✅ 1. git clone (Salinan Penuh dari Repositori)\ngit clone digunakan untuk mengunduh seluruh repositori ke komputer lokal. Ini termasuk semua file, commit, branch, dan riwayat perubahan.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>📌 **Perbedaan `git clone` vs `git fork` di GitHub ohyeah?**</span>"
+    ]
+  },
+  {
+    "objectID": "machine.html#git-clone-salinan-penuh-dari-repositori",
+    "href": "machine.html#git-clone-salinan-penuh-dari-repositori",
+    "title": "2  📌 Perbedaan git clone vs git fork di GitHub ohyeah?",
+    "section": "",
+    "text": "2.1.1 🔥 Cara Menggunakan git clone\ngit clone https://github.com/username/repository.git\n📌 Ini akan membuat salinan identik dari repositori di GitHub ke komputer lokal.\n\n\n2.1.2 🔹 Kapan Menggunakan git clone?\n\nJika ingin mengunduh kode dan bekerja secara lokal.\nJika memiliki akses penuh ke repositori dan bisa melakukan push langsung.\nJika hanya ingin melihat kode tanpa berkontribusi langsung ke repositori utama.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>📌 **Perbedaan `git clone` vs `git fork` di GitHub ohyeah?**</span>"
+    ]
+  },
+  {
+    "objectID": "machine.html#git-fork-salinan-di-akun-github-sendiri",
+    "href": "machine.html#git-fork-salinan-di-akun-github-sendiri",
+    "title": "2  📌 Perbedaan git clone vs git fork di GitHub ohyeah?",
+    "section": "2.2 ✅ 2. git fork (Salinan di Akun GitHub Sendiri)",
+    "text": "2.2 ✅ 2. git fork (Salinan di Akun GitHub Sendiri)\ngit fork membuat salinan repositori di akun GitHub-mu sendiri. Ini tidak langsung mengunduh ke komputer, tetapi memungkinkan kamu untuk memodifikasi dan membuat pull request ke repositori asli.\n\n2.2.1 🔥 Cara Forking Repositori di GitHub\n\nBuka repositori GitHub yang ingin di-fork.\nKlik tombol Fork (di kanan atas).\nGitHub akan membuat salinan repositori di akunmu sendiri.\nSetelah di-fork, clone repositori hasil fork ke komputer:\ngit clone https://github.com/yourusername/forked-repo.git\n\n\n\n2.2.2 🔹 Kapan Menggunakan git fork?\n\nJika ingin berkontribusi ke proyek open-source tetapi tidak memiliki akses ke repositori utama.\nJika ingin membuat perubahan besar sebelum mengajukan Pull Request.\nJika ingin menyimpan versi modifikasi dari proyek tanpa mengganggu repositori asli.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>📌 **Perbedaan `git clone` vs `git fork` di GitHub ohyeah?**</span>"
+    ]
+  },
+  {
+    "objectID": "machine.html#perbedaan-utama-git-clone-vs-git-fork",
+    "href": "machine.html#perbedaan-utama-git-clone-vs-git-fork",
+    "title": "2  📌 Perbedaan git clone vs git fork di GitHub ohyeah?",
+    "section": "2.3 🔄 Perbedaan Utama git clone vs git fork",
+    "text": "2.3 🔄 Perbedaan Utama git clone vs git fork\n\n\n\n\n\n\n\n\nFitur\ngit clone\ngit fork\n\n\n\n\nHasil\nSalinan repositori di komputer lokal\nSalinan repositori di akun GitHub\n\n\nHubungan dengan repo asli\nTerhubung langsung, bisa pull dan push jika punya akses\nTidak langsung terhubung, perlu PR untuk kontribusi\n\n\nBisa mengubah repo asli?\nYa, jika punya akses write\nTidak, hanya bisa buat pull request\n\n\nTujuan utama\nMengunduh dan bekerja dengan kode secara lokal\nBerkontribusi ke proyek open-source tanpa mengubah repo asli\n\n\nPerlu di-clone lagi ke lokal?\nTidak, sudah otomatis lokal\nYa, harus git clone setelah fork",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>📌 **Perbedaan `git clone` vs `git fork` di GitHub ohyeah?**</span>"
+    ]
+  },
+  {
+    "objectID": "machine.html#kesimpulan",
+    "href": "machine.html#kesimpulan",
+    "title": "2  📌 Perbedaan git clone vs git fork di GitHub ohyeah?",
+    "section": "2.4 🎯 Kesimpulan",
+    "text": "2.4 🎯 Kesimpulan\n\nGunakan git clone jika hanya ingin mendapatkan salinan repositori untuk bekerja secara lokal tanpa perlu kontribusi langsung ke repo utama.\nGunakan git fork jika ingin membuat salinan di GitHub, lalu melakukan perubahan sebelum mengajukan Pull Request (PR).\n\n➡ Kamu mau clone atau fork proyek apa? 🚀",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>📌 **Perbedaan `git clone` vs `git fork` di GitHub ohyeah?**</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "2  Summary",
+    "title": "3  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {

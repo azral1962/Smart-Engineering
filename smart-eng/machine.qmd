@@ -1,0 +1,70 @@
+### 📌 **Perbedaan `git clone` vs `git fork` di GitHub ohyeah?**
+
+Ketika bekerja dengan repositori GitHub, kamu bisa **clone** atau **fork** sebuah proyek. Namun, ada perbedaan penting antara keduanya.
+
+------------------------------------------------------------------------
+
+## ✅ **1. `git clone` (Salinan Penuh dari Repositori)**
+
+`git clone` digunakan untuk **mengunduh seluruh repositori ke komputer lokal**. Ini termasuk semua file, commit, branch, dan riwayat perubahan.
+
+### 🔥 **Cara Menggunakan `git clone`**
+
+``` bash
+git clone https://github.com/username/repository.git
+```
+
+📌 Ini akan membuat salinan **identik** dari repositori di GitHub ke komputer lokal.
+
+### 🔹 **Kapan Menggunakan `git clone`?**
+
+-   Jika ingin **mengunduh kode dan bekerja secara lokal**.
+-   Jika memiliki akses penuh ke repositori dan bisa melakukan push langsung.
+-   Jika hanya ingin melihat kode tanpa berkontribusi langsung ke repositori utama.
+
+------------------------------------------------------------------------
+
+## ✅ **2. `git fork` (Salinan di Akun GitHub Sendiri)**
+
+`git fork` membuat **salinan repositori di akun GitHub-mu sendiri**. Ini tidak langsung mengunduh ke komputer, tetapi memungkinkan kamu untuk **memodifikasi dan membuat pull request** ke repositori asli.
+
+### 🔥 **Cara Forking Repositori di GitHub**
+
+1.  **Buka repositori GitHub yang ingin di-fork**.
+
+2.  Klik tombol **Fork** (di kanan atas).
+
+3.  GitHub akan membuat salinan repositori di akunmu sendiri.
+
+4.  Setelah di-fork, **clone repositori hasil fork** ke komputer:
+
+    ``` bash
+    git clone https://github.com/yourusername/forked-repo.git
+    ```
+
+### 🔹 **Kapan Menggunakan `git fork`?**
+
+-   Jika ingin **berkontribusi ke proyek open-source** tetapi tidak memiliki akses ke repositori utama.
+-   Jika ingin **membuat perubahan besar sebelum mengajukan Pull Request**.
+-   Jika ingin menyimpan versi modifikasi dari proyek tanpa mengganggu repositori asli.
+
+------------------------------------------------------------------------
+
+## 🔄 **Perbedaan Utama `git clone` vs `git fork`**
+
+| Fitur | `git clone` | `git fork` |
+|------------------|---------------------------|---------------------------|
+| **Hasil** | Salinan repositori di komputer lokal | Salinan repositori di akun GitHub |
+| **Hubungan dengan repo asli** | Terhubung langsung, bisa `pull` dan `push` jika punya akses | Tidak langsung terhubung, perlu PR untuk kontribusi |
+| **Bisa mengubah repo asli?** | Ya, jika punya akses **write** | Tidak, hanya bisa buat **pull request** |
+| **Tujuan utama** | Mengunduh dan bekerja dengan kode secara lokal | Berkontribusi ke proyek open-source tanpa mengubah repo asli |
+| **Perlu di-clone lagi ke lokal?** | Tidak, sudah otomatis lokal | Ya, harus `git clone` setelah fork |
+
+------------------------------------------------------------------------
+
+## 🎯 **Kesimpulan**
+
+-   **Gunakan `git clone`** jika hanya ingin mendapatkan salinan repositori untuk bekerja secara lokal tanpa perlu kontribusi langsung ke repo utama.
+-   **Gunakan `git fork`** jika ingin membuat **salinan di GitHub**, lalu melakukan perubahan sebelum mengajukan **Pull Request (PR)**.
+
+➡ **Kamu mau clone atau fork proyek apa?** 🚀
