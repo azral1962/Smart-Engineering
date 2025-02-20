@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: ../docs
+
+book:
+  title: "Rekayasa Cerdas"
+  author: "Tiur Jones"
+  date: "2/20/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  docx:
+    reference-doc: template.docx
+
+
